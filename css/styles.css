@@ -1,0 +1,90 @@
+:root{
+    --dark-blue: hsl(200, 44%, 31%);
+    --black: hsl(0, 0%, 0%)
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo-image{
+
+    width: 10%;
+}
+
+.main-nav-bar{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-nav-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: var(--dark-blue);
+}
+
+.main-nav-bar li{
+    margin-left: 10px;
+}
+
+nav{
+    background-color: rgba(27, 155, 183, 0.8);
+}
+
+.Banner{
+    height: 90px;
+    width: 200px;
+
+}
+
+.navigation{
+    color: rgb(6, 90, 103);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navigation__menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation__menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation__menu ul li{
+    margin: 0 10px;
+}
+
+footer{
+    display: grid;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    justify-items: center;
+}
+
+p{
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#fb-root #fb-page{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
