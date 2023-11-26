@@ -9,12 +9,11 @@ body{
 }
 
 .logo-image{
-
-    width: 10%;
+    display: flex;
 }
 
 .main-nav-bar{
-    margin-top: 50px;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -29,6 +28,14 @@ body{
 
 .main-nav-bar li{
     margin-left: 10px;
+    border: 2px solid var(--dark-blue);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-nav-bar li:hover{
+    background-color: #086872;
 }
 
 nav{
@@ -36,9 +43,10 @@ nav{
 }
 
 .Banner{
+    position: relative;
+    left: 10px;
     height: 90px;
     width: 200px;
-
 }
 
 .navigation{
