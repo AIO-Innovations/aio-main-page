@@ -139,8 +139,10 @@ footer{
     display: grid;
     flex-direction: row;
     position: absolute;
-    bottom: 0;
     left: 45%;
+    bottom: 0;
+    height: 50px;
+    margin-top: -10px;
     justify-items: center;
 }
 
@@ -185,5 +187,17 @@ p{
     .mission-vision-values {
         margin: 20px;
         display: flex;
+        align-self: center;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        height: 50px;
+        margin-top: -50px;
+        bottom: 0;
+        left: 45%;
+        justify-items: center;
     }
 }
