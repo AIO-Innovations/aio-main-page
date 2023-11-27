@@ -25,16 +25,30 @@ body{
     color: var(--dark-blue);
 }
 
+/*noinspection CssReplaceWithShorthandSafely*/
 .main-nav-bar li{
-    margin-left: 10px;
-    border: 2px solid var(--dark-blue);
+    margin-left: 20px;
     padding: 10px;
-    border-radius: 10px;
     color: white;
+    background:
+        linear-gradient(
+            to right,
+            var(--dark-blue),
+            rgb(41, 134, 126)),
+        linear-gradient(
+            to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1));
+
+    background-size: 100% 3px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 200ms;
 }
 
 .main-nav-bar li:hover{
-    background-color: #086872;
+    background-size: 0 3px, 100% 3px;
     cursor: pointer;
 }
 
@@ -69,10 +83,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-}
-
-.navigation__menu ul li{
-    margin: 0 10px;
 }
 
 footer{
