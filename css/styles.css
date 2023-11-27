@@ -106,6 +106,8 @@ main{
     align-items: center;
     justify-content: center;
     margin: 0 10px;
+    width: 700px;
+    text-align: justify;
 }
 
 .mission-vision-values{
@@ -123,6 +125,7 @@ main{
     align-items: center;
     justify-content: center;
     margin: 0 10px;
+    text-align: justify;
 }
 
 .values{
@@ -134,6 +137,7 @@ main{
     list-style: none;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
+    text-align: justify;
 }
 
 footer{
