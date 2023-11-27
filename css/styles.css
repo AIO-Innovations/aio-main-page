@@ -4,13 +4,19 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
     margin: 0;
-    padding: 0;
-   background: hsl(0, 0%, 98%, 1);
+    background: hsl(0, 0%, 98%, 1);
+    position: relative;
+    padding-bottom: 70px;
 }
 
 .main-nav-bar{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
@@ -109,6 +115,16 @@ main{
     text-align: justify;
 }
 
+.socials-ads{
+    width: 25%;
+    height: 25%;
+}
+
+.socials-ads img{
+    width: 100%;
+    height: 100%;
+}
+
 .mission-vision-values{
     display: flex;
     color: var(--dark-blue);
@@ -136,14 +152,10 @@ main{
 }
 
 footer{
-    display: grid;
-    flex-direction: row;
-    position: absolute;
-    left: 45%;
-    bottom: 0;
-    height: 50px;
-    margin-top: -10px;
-    justify-items: center;
+    display: flex;
+    position: relative;
+    bottom: -60px;
+    justify-content: center;
 }
 
 p{
@@ -162,6 +174,7 @@ p{
 #fb-root a{
     text-decoration: none;
 }
+
 
 @media (max-width: 768px) {
 
@@ -192,12 +205,10 @@ p{
 
     footer{
         display: flex;
+        position: relative;
         flex-direction: column;
-        position: absolute;
-        height: 50px;
-        margin-top: -50px;
-        bottom: 0;
-        left: 45%;
+        bottom: -60px;
         justify-items: center;
+        align-items: center;
     }
 }
