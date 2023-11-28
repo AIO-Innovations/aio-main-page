@@ -156,13 +156,20 @@ footer{
     position: relative;
     bottom: -60px;
     justify-content: center;
+    align-items: center;
 }
 
 p{
     display: flex;
-    margin: 0 10px;
+    margin-left: 10px;
     align-items: center;
     justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--dark-blue);
+    margin-left: 20px;
 }
 
 #fb-root #fb-page{
