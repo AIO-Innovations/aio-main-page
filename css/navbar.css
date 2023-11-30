@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 :root{
     --dark-blue: hsl(200, 44%, 31%);
     --black: hsl(0, 0%, 0%)
+
 }
 
 header{
@@ -10,9 +12,10 @@ header{
 nav{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100px;
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-nav-bar{
@@ -31,7 +34,6 @@ nav{
 
 /*noinspection CssReplaceWithShorthandSafely*/
 .main-nav-bar li{
-    border: var(--dark-blue) solid 1px;
     border-radius: 5px;
     margin-left: 20px;
     padding: 7px;
