@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+:root{
+    --dark-blue: hsl(200, 44%, 31%);
+    --black: hsl(0, 0%, 0%)
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0;
+    background: hsl(0, 0%, 98%, 1);
+    position: relative;
+    padding-bottom: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contact-form input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--dark-blue);
+    padding: 5px;
+}
+
+.contact-form textarea{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--dark-blue);
+    padding: 5px;
+}
+
+.contact-form button{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--dark-blue);
+    padding: 5px;
+    background-color: var(--dark-blue);
+    color: white;
+    font-weight: bold;
+}
